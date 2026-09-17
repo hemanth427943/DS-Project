@@ -5,3 +5,4 @@ data=np.random.randn(1000)
 sns.histplot(data,kde=True)
 plt.title("Histgram and Density")
 plt.show()
+``

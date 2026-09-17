@@ -1,0 +1,22 @@
+Original Series:
+Department   Branch   
+Engineering  CSE          95
+             Ds           93
+Science      chemistry    92
+             Physics      94
+dtype: int64
+
+Data for Engineering:
+Branch
+CSE    95
+Ds     93
+dtype: int64
+
+Data for CSE:
+95
+
+Data for Science:
+Branch
+chemistry    92
+Physics      94
+dtype: int64

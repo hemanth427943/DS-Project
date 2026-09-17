@@ -1,0 +1,28 @@
+Original Tabular Data:
+                       2025  2026
+Department  Branch               
+Engineering Civil        85    90
+            EEE          78    82
+Mathematics Algebra      90    88
+            Calculs      95    96
+Science     Physics      92    95
+            Chemistry    88    91
+
+Data after Unstack():
+               2025                                          2026                                      
+Branch      Algebra Calculs Chemistry Civil   EEE Physics Algebra Calculs Chemistry Civil   EEE Physics
+Department                                                                                             
+Engineering     NaN     NaN       NaN  85.0  78.0     NaN     NaN     NaN       NaN  90.0  82.0     NaN
+Mathematics    90.0    95.0       NaN   NaN   NaN     NaN    88.0    96.0       NaN   NaN   NaN     NaN
+Science         NaN     NaN      88.0   NaN   NaN    92.0     NaN     NaN      91.0   NaN   NaN    95.0
+
+
+Data after Stack():
+                       2025  2026
+Department  Branch               
+Engineering Civil      85.0  90.0
+            EEE        78.0  82.0
+Mathematics Algebra    90.0  88.0
+            Calculs    95.0  96.0
+Science     Chemistry  88.0  91.0
+            Physics    92.0  95.0
