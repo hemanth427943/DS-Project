@@ -1,0 +1,25 @@
+First DataFrame:
+          Name  Marks Grade
+101      Lucky   85.0     A
+102  Chowdaiah    NaN     B
+103       Arun   78.0  None
+
+Second DataFrame:
+          Name  Marks Grade
+101      Lucky     90     O
+102  Chowdaiah     88     A
+104      Manju     82     B
+
+Merged DataFrame:
+      Name_DF1  Marks_DF1 Grade_DF1   Name_DF2  Marks_DF2 Grade_DF2
+101      Lucky       85.0         A      Lucky       90.0         O
+102  Chowdaiah        NaN         B  Chowdaiah       88.0         A
+103       Arun       78.0      None        NaN        NaN       NaN
+104        NaN        NaN       NaN      Manju       82.0         B
+
+DataFrame after combine_first():
+          Name  Marks Grade
+101      Lucky   85.0     A
+102  Chowdaiah   88.0     B
+103       Arun   78.0   NaN
+104      Manju   82.0     B

@@ -1,0 +1,17 @@
+Data:
+   Department  Marks
+0         CSE     78
+1         CSE     85
+2         CSE     90
+3         CSE     72
+4         CSE     88
+5         ECE     65
+6         ECE     70
+7         ECE     82
+8         ECE     75
+9         ECE     80
+10        EEE     60
+11        EEE     68
+12        EEE     72
+13        EEE     76
+14        EEE     85

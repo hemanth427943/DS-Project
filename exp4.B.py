@@ -21,11 +21,9 @@ data = pd.DataFrame(
 )
 print("Original Tabular Data:")
 print(data)
-# Unstack the inner level
 unstacked_data = data.unstack()
 print("\nData after Unstack():")
 print(unstacked_data)
-# Stack the data back
 stacked_data = unstacked_data.stack()
 print("\nData after Stack():")
 print(stacked_data)
