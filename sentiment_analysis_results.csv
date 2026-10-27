@@ -1,0 +1,8 @@
+review,sentiment,nltk_positive,nltk_negative,nltk_neutral,nltk_compound,vader_positive,vader_negative,vader_neutral,vader_compound,nltk_sentiment,vader_sentiment
+This product is excellent and amazing,positive,0.652,0.0,0.348,0.8176,0.652,0.0,0.348,0.8176,Positive,Positive
+Very happy with the quality,positive,0.5,0.0,0.5,0.6115,0.5,0.0,0.5,0.6115,Positive,Positive
+"Terrible product, waste of money",negative,0.0,0.663,0.337,-0.7096,0.0,0.663,0.337,-0.7096,Negative,Negative
+Poor quality and bad service,negative,0.0,0.688,0.312,-0.765,0.0,0.688,0.312,-0.765,Negative,Negative
+The product is okay,neutral,0.388,0.0,0.612,0.2263,0.388,0.0,0.612,0.2263,Positive,Positive
+Good value for money,positive,0.726,0.0,0.274,0.6486,0.726,0.0,0.274,0.6486,Positive,Positive
+Not satisfied with this purchase,negative,0.0,0.368,0.632,-0.3252,0.0,0.368,0.632,-0.3252,Negative,Negative

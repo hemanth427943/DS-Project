@@ -1,0 +1,9 @@
+review,word_count,character_count,numeric_count,stopword_count,average_word_length
+This product is excellent and amazing,6.0,37.0,0.0,3.0,5.333333333333333
+I love this product and its quality,7.0,35.0,0.0,4.0,4.142857142857143
+Very good product and great service,6.0,35.0,0.0,2.0,5.0
+The product is bad and disappointing,6.0,36.0,0.0,3.0,5.166666666666667
+Poor quality and terrible experience,5.0,36.0,0.0,1.0,6.4
+The product is okay and average,6.0,31.0,0.0,3.0,4.333333333333333
+Excellent value for money,4.0,25.0,0.0,1.0,5.5
+I am unhappy with this purchase,6.0,31.0,0.0,4.0,4.333333333333333
